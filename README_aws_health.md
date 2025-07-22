@@ -325,7 +325,7 @@ tail -f health_check.log
 
 ---
 
-**🎯 이제 매일 반복되는 AWS Health Dashboard 점검 업무가 자동화됩니다!**
+**🎯 이제 매일 반복되는 AWS Health Dashboard 점검 업무가 자동화됩니다!!**
 - 웹 대시보드로 편리한 조회
 - 자동 일일 점검 및 알림
 - 긴급 상황 즉시 감지
