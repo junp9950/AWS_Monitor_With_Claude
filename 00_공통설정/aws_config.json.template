@@ -1,0 +1,25 @@
+{
+  "aws_accounts": [
+    {
+      "name": "Production_Account",
+      "description": "프로덕션 환경",
+      "access_key_id": "AKIA실제액세스키아이디",
+      "secret_access_key": "실제시크릿액세스키",
+      "region": "us-east-1"
+    },
+    {
+      "name": "Development_Account", 
+      "description": "개발 환경",
+      "access_key_id": "AKIA개발계정액세스키",
+      "secret_access_key": "개발계정시크릿키",
+      "region": "us-east-1"
+    }
+  ],
+  "default_account": "Production_Account",
+  "health_settings": {
+    "check_interval_minutes": 30,
+    "days_back": 7,
+    "include_resolved": false,
+    "include_scheduled": true
+  }
+}

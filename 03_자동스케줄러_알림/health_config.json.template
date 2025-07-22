@@ -1,0 +1,28 @@
+{
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "your-email@gmail.com",
+    "sender_password": "your-app-password",
+    "recipients": [
+      "admin1@company.com",
+      "admin2@company.com"
+    ]
+  },
+  "slack": {
+    "webhook_url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+    "channel": "#aws-health"
+  },
+  "schedule": {
+    "daily_check_time": "09:00",
+    "urgent_check_interval": 30
+  },
+  "thresholds": {
+    "max_critical_events": 0,
+    "max_active_events": 5
+  },
+  "aws_settings": {
+    "region": "us-east-1",
+    "profile": "default"
+  }
+}
